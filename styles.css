@@ -67,10 +67,10 @@ input{
     display: block;
     margin: 1rem auto;
     border: solid 2px var(--primary-color);
-    width: 40%;
+    width: 60%;
     height: 4vh;
     border-radius: 0.5rem;
-    padding: 0.2rem;
+    padding: 0.2rem 0.8rem;
 }
 
 button{
@@ -101,4 +101,9 @@ td{
 th{
     width: 25%;
     border: 2px solid var(--primary-color);
+}
+
+.error-message{
+    color: red;
+    padding: 0.5rem;
 }

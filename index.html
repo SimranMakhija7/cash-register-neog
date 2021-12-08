@@ -18,11 +18,13 @@
             <input type="text" name="amount" id="amount" class="userInput">
             <label for="cash" class="label">Cash Given</label>
             <input type="text" name="cash" id="cash" class="userInput">
-            <button class="btn"> Check </button>
         </form>
+        <div class="error-message"></div>
+        <button class="btn"> Check </button>
     </div>
         <div class="container">
             <h2 id="output-heading">Return Change</h2>
+            
             <table>
                 <tr>
                     <th>Note</th>
@@ -36,13 +38,13 @@
                 </tr>
                 <tr>
                     <th>No of Notes</th>
-                    <td id="2000"></td>
-                    <td id="500"></td>
-                    <td id="100"></td>
-                    <td id="20"></td>
-                    <td id="10"></td>
-                    <td id="5"></td>
-                    <td id="1"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
+                    <td class="notes"></td>
                 </tr>
             </table>
         </div>
@@ -56,5 +58,6 @@
                 </ul>
             </div>
         </footer>
+        <script src="app.js"></script>
 </body>
 </html>
