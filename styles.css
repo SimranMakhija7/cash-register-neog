@@ -37,7 +37,7 @@ footer{
     color: whitesmoke;
     text-align: center;
     border-top-right-radius: 1rem;
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 0;
 }
