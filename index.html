@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-heading">Cash Register Manager</h1>
+        <p class="header-text">Enter the bill amount and cash given by the customer and know minimum number of notes to return. </p>
+        <form>
+            <label for="amount" class="label">Bill Amount</label>
+            <input type="number" name="amount" id="amount" class="userInput">
+            <label for="cash" class="label">Cash Given</label>
+            <input type="number" name="cash" id="cash" class="userInput">
+            <button class="btn"> Check </button>
+        </form>
+        <div class="container">
+            <h2>Return Change</h2>
+            <table>
+                <tr>
+                    <th>Note</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th>No of Notes</th>
+                    <td id="2000"></td>
+                    <td id="500"></td>
+                    <td id="100"></td>
+                    <td id="20"></td>
+                    <td id="10"></td>
+                    <td id="5"></td>
+                    <td id="1"></td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-header">© | 2021 | Simran Makhija</div>
+                <ul class="social-links list-non-bullet ">
+                    <li class="list-item-inline"><a class="link" target="_blank" href="https://github.com/SimranMakhija7">Github Logo[use icon tag]</a></li>
+                    <li class="list-item-inline"><a class="link" target="_blank" href="https://twitter.com/justdev_sim/">Twitter</a></li>
+                    <li class="list-item-inline"><a class="link" target="_blank" href="https://www.instagram.com/justdev_sim/">Insta</a></li>
+                </ul>
+            </div>
+        </footer>
+    </header>
+</body>
+</html>
